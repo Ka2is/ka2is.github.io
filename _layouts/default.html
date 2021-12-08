@@ -21,6 +21,9 @@
       <div id="header">
         <nav>
           <ul>
+            <li class="fork">
+              <img src="/content/icons/terminal_icon-128px.png" alt="terminal" style="width:56px;height:56px">
+            </li>            
           </ul>
         </nav>
       </div><!-- end header -->
@@ -32,13 +35,16 @@
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
           <hr>
-          <span class="credits right">Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
         </div>
 
         {{ content }}
 
       </section>
-
+      
+      <section>
+        <hr>
+        <span class="credits right">Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
+      </section>
     </div>
   </body>
 </html>
