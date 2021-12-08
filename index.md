@@ -1,5 +1,3 @@
-# -ka2is Hacking Journey-
-
 ## About This Blog
 
 This blog's purpose is to help me track and share the progress I make in my hacking journey.
