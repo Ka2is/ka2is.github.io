@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% include head-custom.html %}
   </head>
+  
   <body>
     <div id="header">
       <nav>
@@ -21,55 +22,14 @@
               <source media="(min-height:32px)" srcset="/content/icons/terminal_icon-32px.png">
               <img src="/content/icons/terminal_icon-12px.png" alt="terminal" style="width:auto;">
             </picture>
-            <!-- <img src="/content/icons/terminal_icon-128px.png" alt="terminal" style="width:56px;height:56px"> -->
           </li>            
         </ul>
       </nav>
     </div><!-- end header -->
-
+    
     <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
-        </div>
-
-        {% if posts.size > 0 %}
-          {  %- if page.list_title -%}
-            <h2 class="post-list-heading">{{ page.list_title }}</h2>
-          {% endif %}
-          <ul class="post-list">
-            <!-- {% assign date_format = date_format | default: "%b %-d, %Y" %} -->
-            {% for post in posts %}
-            <li>
-              <span class="post-meta">{{ post.date | date: date_format }}</span>
-              <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-              {% if site.show_excerpts %}
-                {{ post.excerpt }}
-              {% endif %}
-            </li>
-            {% endfor %}
-          </ul>        
-        {% endif %}
-        
-      </section>
-      
-      <section>
-        <hr>
-        {{ content }}
-      </section>
-      
-      <section>
-        <hr>
-        <span class="credits right">Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
-        <span class="credits right">Theme modifications inspired by <a href="https://github.com/jekyll/minima">minima</a></span>
-      </section>
+      {{ content }}
     </div>
+    
   </body>
 </html>
