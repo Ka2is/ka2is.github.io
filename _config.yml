@@ -2,7 +2,7 @@ theme: jekyll-theme-midnight
 title: "ka2is hacking journey"
 description: "let's hack"
 
-# minima theme import below
+# my variables inspired by minima theme below
 show_excerpts: true # set to false to remove excerpts on the homepage
 excerpt_separator: "<!--end-excerpt-->"
 date_format: "%-d %b %Y"
