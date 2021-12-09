@@ -5,4 +5,4 @@ description: "let's hack"
 # my variables inspired by minima theme below
 show_excerpts: true # set to false to remove excerpts on the homepage
 excerpt_separator: "<!--end-excerpt-->"
-date_format: "%-d %b %Y"
+date_format: "%-d %B %Y"
