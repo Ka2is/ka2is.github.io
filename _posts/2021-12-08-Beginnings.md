@@ -2,6 +2,7 @@
 title: "Beginnings"
 date: 2021-12-08
 excerpt_separator: <!--end-excerpt-->
+excerpt:test
 ---
 
 Welcome to my blog and its very first post. From now on I will be sharing my adventures in my hacking journey.
