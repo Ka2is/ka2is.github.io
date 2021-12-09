@@ -12,20 +12,20 @@
     {% include head-custom.html %}
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <ul>
-            <li class="fork">
-              <picture>
-                <source media="(min-height:60px)" srcset="/content/icons/terminal_icon-56px.png">
-                <source media="(min-height:32px)" srcset="/content/icons/terminal_icon-32px.png">
-                <img src="/content/icons/terminal_icon-12px.png" alt="terminal" style="width:auto;">
-              </picture>
-              <!-- <img src="/content/icons/terminal_icon-128px.png" alt="terminal" style="width:56px;height:56px"> -->
-            </li>            
-          </ul>
-        </nav>
-      </div><!-- end header -->
+    <div id="header">
+      <nav>
+        <ul>
+          <li class="fork">
+            <picture>
+              <source media="(min-height:60px)" srcset="/content/icons/terminal_icon-56px.png">
+              <source media="(min-height:32px)" srcset="/content/icons/terminal_icon-32px.png">
+              <img src="/content/icons/terminal_icon-12px.png" alt="terminal" style="width:auto;">
+            </picture>
+            <!-- <img src="/content/icons/terminal_icon-128px.png" alt="terminal" style="width:56px;height:56px"> -->
+          </li>            
+        </ul>
+      </nav>
+    </div><!-- end header -->
 
     <div class="wrapper">
 
@@ -63,6 +63,7 @@
             </li>
             {%- endfor -%}
           </ul>
+
           {% if site.paginate %}
             <div class="pager">
               <ul class="pagination">
@@ -80,6 +81,7 @@
               </ul>
             </div>
           {%- endif %}
+        
         {%- endif -%}        
 
       </section>
