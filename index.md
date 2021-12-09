@@ -1,8 +1,8 @@
-## about this blog
+### about this blog
 
 This blog's purpose is to help me track and share the progress I make in my hacking journey.
 
-## about me
+### about me
 
 I have been a geek for as long as I can remember. I had access to a computer at a very young age and I have always been fascinated about them.
 
